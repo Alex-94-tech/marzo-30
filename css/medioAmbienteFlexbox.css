@@ -1,0 +1,33 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: greenyellow;
+    color: darkred;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: auto;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.around {
+    justify-content: space-around;
+}
+.center {
+    align-items: center;
+}
+.imagen {
+    min-height: 3em;
+    width: 65%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+table {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
