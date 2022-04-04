@@ -33,7 +33,8 @@ body{
     flex-grow: 2;
 }
 .h25 {
-    max-height: 25em;
+    max-height: 12em;
+    max-width: fit-content;
 }
 .column {
     display: flex;
