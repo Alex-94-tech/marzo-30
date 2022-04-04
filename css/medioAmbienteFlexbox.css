@@ -2,8 +2,9 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: greenyellow;
     color: darkred;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 2em;
+    margin-bottom: 3%;
+    padding: 0.65em;
     overflow: auto;
 }
 .wrap {
@@ -22,6 +23,17 @@ body{
 .row {
     display: flex;
     flex-direction: row;
+}
+.big {
+    display: flex;
+    flex-grow: 5;
+}
+.small {
+    display: flex;
+    flex-grow: 2;
+}
+.h25 {
+    max-height: 25em;
 }
 .column {
     display: flex;
